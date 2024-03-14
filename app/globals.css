@@ -1,0 +1,119 @@
+.center{
+  text-align: center;
+}
+
+.pading{
+  padding: 0 50px 0 50px;
+}
+
+.bg-image {
+  background-image: url('../public/images/backroungimage.jpeg'); /* specifică calea către imaginea de fundal */
+  background-size: cover; /* asigură acoperirea completă a containerului cu imaginea */
+  background-position: center; /* poziționează imaginea în centrul containerului */
+  height: 100vw;
+  width: auto;
+}
+.navbar a{
+  text-decoration: none;
+  color: #454545;
+  font-size: 100%;
+}
+.navbar a:hover{
+  color: black;
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer{
+  background-color: #454545;
+  color: white;
+  margin: 0;
+}
+
+.subcol{
+  
+  display:flex;
+  justify-content: center;
+}
+
+
+
+@media (min-width:650px) {
+  div .dropdown{
+    display: none;
+    }
+    div hr{
+      margin: 80px auto 50px auto;
+    }
+    
+}
+@media (max-width: 650px) {
+  div .navbar{display: none;
+  }
+  div.bg-image h1{
+    padding-top: 50px;
+  }
+  .firsthr{
+    margin:50px auto 0 auto;
+  }  
+  div hr{
+    margin: 0 auto 0 auto;
+  }
+}
+
+.container .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div .card{
+  margin: 50px 0 50px 0;
+}
+
+.container.contacte{
+  max-width: 50%;
+  padding: auto;
+}
+.telefon{
+  font-size: x-large;
+  margin-left: 10px;
+}
+.email{
+  font-size: x-large;
+  margin-left: 20px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+div hr {
+  border: dotted black 6px;
+  border-bottom: none; 
+  width: 10%;
+}
+
+nav ul{
+  padding: 50px 0 50px 0;
+}
+
+.email a{
+  text-decoration: none;
+  color: black;
+}
+.telefon a{
+  text-decoration: none;
+  color: black;
+}
+
+.heading{
+  color: #F0C929;
+}
